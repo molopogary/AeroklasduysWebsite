@@ -75,13 +75,11 @@ body {
 .fa-bold {
   color: #563d7c;
 }
-.fa-css3 {
+.fa-car {
   color: #2163af;
 }
 
-.fa-code,
-.fa-bold,
-.fa-css3 {
+.fa-car {
   font-size: 4em;
   margin: 1rem;
 }
