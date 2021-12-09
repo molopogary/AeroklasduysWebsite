@@ -6,6 +6,7 @@ body {
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: #222;
+  scroll-behavior: smooth;
 }
 
 .navbar {
@@ -40,12 +41,12 @@ body {
 }
 
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: blue;
+  border: 1px solid blue;
 }
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: lightskyblue;
+  border: 1px solid lightskyblue;
 }
 
 .jumbotron {
@@ -69,19 +70,25 @@ body {
   margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
-.fa-code {
+.fa-truck-pickup {
   color: #e54d26;
 }
-.fa-bold {
+.fa-truck-monster {
   color: #563d7c;
 }
 .fa-car {
   color: #2163af;
 }
 
-.fa-car {
+.fa-car,
+.fa-truck-monster,
+.fa-truck-pickup {
   font-size: 4em;
   margin: 1rem;
+}
+
+.img-fluid {
+  border-radius: 15px;
 }
 
 .fun {
